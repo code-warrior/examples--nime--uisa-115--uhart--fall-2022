@@ -40,6 +40,68 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-9",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 917.637792825698853, 385.226802587509155, 383.0, 20.0 ],
+					"text" : "Open the FAQs for OSCulator"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-10",
+					"linecount" : 3,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 917.637792825698853, 407.226802587509155, 383.0, 49.0 ],
+					"presentation_linecount" : 4,
+					"text" : ";\rmax launchbrowser https://osculator.net/doc/faq:wiimote#what_are_pitch_yaw_and_roll"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 917.637792825698853, 297.226802587509155, 383.0, 20.0 ],
+					"text" : "Learn how to setup the Wii remote controller with OSCulator"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 24.0,
+					"id" : "obj-3",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 917.637792825698853, 255.766221685409505, 267.0, 33.0 ],
+					"text" : "Links"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-2",
+					"linecount" : 2,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 917.637792825698853, 321.226802587509155, 383.0, 35.0 ],
+					"presentation_linecount" : 3,
+					"text" : ";\rmax launchbrowser https://github.com/code-warrior/installing-osculator"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"autofit" : 1,
 					"forceaspect" : 1,
 					"id" : "obj-1",
@@ -59,7 +121,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 917.637792825698853, 278.666432466506876, 267.0, 33.0 ],
+					"patching_rect" : [ 917.637792825698853, 488.226802587509155, 267.0, 33.0 ],
 					"text" : "Notes"
 				}
 
@@ -1091,7 +1153,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 917.637792825698853, 318.766221685409391, 486.687794208526611, 60.0 ],
+					"patching_rect" : [ 917.637792825698853, 528.32659180641167, 486.687794208526611, 60.0 ],
 					"text" : "* Inside each route object, replace the “1” to the right of “wii” with the number of your Wii.\n* Smoothing can also be carried out in the OSCulator interface.\n* “pry” stands for pitch, roll, and yaw (rotation).\n* Yaw works with acceleration. Pitch and roll usually suffice for most applications."
 				}
 
